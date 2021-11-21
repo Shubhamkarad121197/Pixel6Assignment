@@ -45,7 +45,7 @@ ul li{
 }
 .Enthusiast ul li{
     
-    margin-left:8% ;
+    margin-left:10% ;
     margin-top: 5%;
     
     text-align: center;
@@ -64,7 +64,7 @@ ul li{
 .card{
     box-sizing: border-box;
     margin: 4%;
-    margin-right: 1%;
+    margin-right: 4%;
     border:hidden;
 }
 .card img{

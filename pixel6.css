@@ -1,24 +1,26 @@
 body{
     margin: 0;
     padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 ul li{
     padding: auto;
     list-style: none;
 }
-.subnav{
-    padding: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    font-size: large;
-}
+
 .home{
     background: url("./images/Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    width: 100%;
+    
     
 }
 .content{
@@ -59,11 +61,20 @@ ul li{
     font-weight: bolder;
 
 }
-.content img{
-    padding: auto;
-    
+.card{
+    box-sizing: border-box;
+    margin: 4%;
+    margin-right: 1%;
+    border:hidden;
 }
-.content h2{
-    margin-left: 30%;
-    color:rgb(0, 0, 77) ;
+.card img{
+    width: 50%;
+    margin-left: 25%;
 }
+.card h2{
+    margin-left: 46%;
+}
+.card p{
+    margin-left: 11%;
+}
+

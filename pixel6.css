@@ -6,6 +6,8 @@ body{
 a{
     text-decoration: none;
     color:black;
+    font-weight: bolder;
+    color:rgb(0, 0, 77) ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }

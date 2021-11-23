@@ -1,6 +1,6 @@
-body{
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0%;
+    padding: 0%;
     
 }
 a{
@@ -11,17 +11,21 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+nav{
+    cursor: pointer;
+}
 ul li{
     padding: auto;
     list-style: none;
 }
 
 .home{
-    background: url("./images/Background.jpg");
+    background-image: url("./images/Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-attachment: scroll;
+    
     
     
 }
@@ -48,7 +52,7 @@ ul li{
 .Enthusiast ul li{
     
     margin-left:10% ;
-    margin-top: 5%;
+    margin-top: 3%;
     
     text-align: center;
     color: white;
@@ -78,5 +82,8 @@ ul li{
 }
 .card p{
     margin-left: 11%;
+}
+i{
+    font-size: xx-large;
 }
 
